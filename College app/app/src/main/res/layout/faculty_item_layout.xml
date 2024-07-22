@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginVertical="12dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="12dp"
+
+
+                >
+
+                <TextView
+                    android:id="@+id/teachername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/trebucbd"
+
+                    />
+
+                <TextView
+                    android:id="@+id/teacherpost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="post"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/trebucbd" />
+
+                <TextView
+                    android:id="@+id/teachermail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="email"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/trebucbd" />
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:src="@drawable/person"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/teacherimage"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

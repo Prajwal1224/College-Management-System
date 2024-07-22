@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/adminic"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Admin2">
+        <activity
+            android:name=".sendmail"
+            android:exported="false" />
+        <activity
+            android:name=".notice.DeleteNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".faculty.UpdateTeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".faculty.addTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".faculty.uploadfaculty"
+            android:exported="false" />
+        <activity
+            android:name=".uploadpdf"
+            android:exported="false" />
+        <activity
+            android:name=".uploadimage"
+            android:exported="false" />
+        <activity
+            android:name=".notice.upload_notice"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

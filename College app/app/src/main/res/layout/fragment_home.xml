@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.homeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <!--<ImageView
+                android:id="@+id/abitimg"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+
+                android:background="#ffffff"
+                android:padding="1dp"
+                />-->
+
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="16dp"
+                android:autoStart="true"
+                android:flipInterval="2000"
+                android:inAnimation="@android:anim/slide_in_left"
+                android:outAnimation="@android:anim/slide_out_right"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5">
+
+                <ImageView
+                    android:id="@+id/vv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/vv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/vv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/vv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/vv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/vv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/vv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/vv8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </ViewFlipper>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black"
+                android:text="Progressive Education Society"
+                android:textSize="20dp"
+                style="bold"
+                app:fontFamily="@font/trebucbd" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="3dp"
+                android:textColor="#E61818"
+                android:text="MODERN COLLEGE OF ENGINEERING, PUNE"
+                android:textSize="15dp"
+                style="bold"
+                app:fontFamily="@font/trebucbd" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="3dp"
+                android:text="Approved by AICTE, Affiliated to Savitribai Phule Pune University"
+                android:textColor="#636363"
+                android:textSize="10dp"
+                app:fontFamily="@font/trebucbd" />
+
+            <ImageView
+                android:id="@+id/kanitkar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textColor="#E82323"
+                android:text="INSTITUTE HISTORY"
+                android:textSize="20dp"
+                style="bold"
+                app:fontFamily="@font/trebucbd" />
+
+            <TextView
+                android:id="@+id/about_txt"
+                android:layout_width="345dp"
+                android:layout_height="436dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="14dp"
+                android:layout_marginTop="6dp"
+
+                android:text="@string/about_clg"
+                app:fontFamily="@font/trebucbd"
+                app:textAllCaps="false" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:textColor="#E82323"
+                android:text="INFRASTRUCTURE AND FACILITIES"
+                android:textSize="20dp"
+                style="bold"
+                app:fontFamily="@font/trebucbd" />
+
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="16dp"
+                android:autoStart="true"
+                android:flipInterval="2000"
+                android:inAnimation="@android:anim/slide_in_left"
+                android:outAnimation="@android:anim/slide_out_right"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5">
+
+                <ImageView
+                    android:id="@+id/v1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/v2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/v3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/v4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/v5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </ViewFlipper>
+
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="16dp"
+                android:id="@+id/location"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</FrameLayout>
